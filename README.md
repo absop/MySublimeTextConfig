@@ -1,1 +1,1 @@
-"# MySublimeTextConfig" 
+# MySublimeTextConfig
