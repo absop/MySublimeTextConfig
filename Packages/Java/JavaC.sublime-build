@@ -1,0 +1,40 @@
+{
+    "cmd": [
+        "cmd", "/c",
+        "javac", "-encoding", "UTF-8", "$file",
+        "&&", "java", "-Dfile.encoding=UTF-8", "$file_base_name"
+    ],
+    "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
+    "selector": "source.java",
+
+    "variants": [
+        {
+            "name": "CMD",
+            "cmd": [
+                "cmd", "/c",
+                "javac", "-encoding", "UTF-8", "$file",
+                "&&", "start", "cmd", "/c",
+                "java -Dfile.encoding=UTF-8 $file_base_name  &echo.&pause"
+            ]
+        },
+        {
+            "name": "GBK",
+            "encoding": "gbk",
+            "cmd": [
+                "cmd", "/c",
+                "javac", "-encoding", "GBK", "$file",
+                "&&", "java", "-Dfile.encoding=GBK",  "$file_base_name"
+            ]
+        },
+        {
+            "name": "GBK CMD",
+            "encoding": "gbk",
+            "cmd": [
+                "cmd", "/c",
+                "javac", "-encoding", "GBK", "$file",
+                "&&", "start", "cmd", "/c",
+                "java -Dfile.encoding=GBK $file_base_name &echo.&pause"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+// These settings override both User and Default settings for the LaTeX syntax
+{
+	"highlight_line": false,
+    "rulers": [80],
+    "wrap_width": 80,
+    "word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?（《【，。—·…！￥：；‘“”’？、】》）",
+
+}

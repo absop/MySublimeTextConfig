@@ -1,0 +1,15 @@
+{
+    "cmd": ["java", "-Dfile.encoding=UTF-8", "$file"],
+    "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
+    "selector": "source.java",
+
+    "variants": [
+        {
+            "name": "CMD",
+            "cmd": [
+                "cmd", "/c", "start", "cmd", "/c",
+                "java -Dfile.encoding=UTF-8 $file &echo.&pause"
+            ]
+        }
+    ]
+}

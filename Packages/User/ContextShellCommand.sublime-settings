@@ -1,0 +1,25 @@
+{
+    "caption": "Run Shell Cmd",
+
+    "commands": [
+        {
+            "caption": "Github Desktop Here",
+            "command": ["github.bat", "${file_path}"],
+            "shell": true,
+            // "show_output_panel": false
+        },
+        {
+            "caption": "Cmder Here",
+            "command": ["Cmder.exe", "\"${file_path}\""],
+            "shell": true,
+            // "show_output_panel": false
+        },
+        {
+            "caption": "List Files",
+            "command": ["dir", "${file_path}"],
+            "shell": true,
+            "platform": "Windows",
+            "encoding": "gbk"
+        }
+    ]
+}

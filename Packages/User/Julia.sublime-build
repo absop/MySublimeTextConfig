@@ -1,0 +1,5 @@
+{
+	"cmd": ["julia", "${file}"],
+	"file_regex": "\\s(\\w:.*):([0-9]+)",
+	"selector": "source.julia"
+}

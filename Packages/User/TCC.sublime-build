@@ -1,0 +1,33 @@
+{
+    "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+    "working_dir": "${file_path}",
+    "selector": "source.c",
+    "encoding": "gbk",
+
+    "linux":    {"shell_cmd": "tcc -o ${file_path}/${file_base_name} ${file}"},
+    "osx":      {"shell_cmd": "tcc -o ${file_path}/${file_base_name} ${file}"},
+    "windows":  {"shell_cmd": "tcc -o ${file_path}/${file_base_name}.exe ${file}"},
+
+    "variants": [
+        {
+            "name": "Run",
+            "linux":    {"shell_cmd": "tcc -run \"${file}\""},
+            "osx":      {"shell_cmd": "tcc -run \"${file}\""},
+            "windows":  {"cmd": ["tcc", "-run", "${file}"]},
+        },
+        {
+            "name": "Run(CMD)",
+            "linux": {
+                "shell_cmd": "gnome-terminal -e 'bash -c \"echo tcc -run ${file};echo;time tcc -run \\\"${file}\\\";echo ;echo Press any key to exit...;read -n 1;exit;\"'"
+            },
+            "windows": {
+                // "shell_cmd": "git-bash -c \"echo tcc -run ${file_name};echo;time winpty tcc -run ${file_name};echo;echo Press any key to exit...;read -n 1;exit;\"",
+                "cmd": [
+                    "cmd", "/c",
+                    "start", "cmd", "/c", "tcc -run ${file} &echo.&pause"
+                ],
+            },
+            "osx": {}
+        }
+    ]
+}

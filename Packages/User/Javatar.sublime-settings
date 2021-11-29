@@ -1,0 +1,138 @@
+{
+	"message_id": 20,
+	"project_data":
+	{
+		/*"2":
+		{
+			"folders":
+			[
+				{
+					"path": "D:\\DATA\\Works",
+				},
+				{
+					"path": "D:\\DATA\\Learning\\Scheme",
+				},
+				{
+					"path": "C:\\Users\\absop\\Documents\\GitHub\\Scheme\\SchemeMathBench",
+				},
+				{
+					"path": "D:\\DATA\\Learning\\Python",
+				},
+				{
+					"path": "D:\\DATA\\Learning\\Julia",
+				},
+				{
+					"path": "D:\\DATA\\Github\\yielda",
+				},
+				{
+					"path": "D:\\DATA\\Learning\\C",
+				},
+				{
+					"path": "D:\\DATA\\Learning\\CG",
+				},
+				{
+					"path": "D:\\DATA\\Learning\\Java",
+				},
+				{
+					"path": "D:\\DATA\\Learning\\Network",
+				},
+				{
+					"path": "D:\\DATA\\写作",
+				},
+				{
+					"path": "D:\\DATA\\Learning\\自动机理论,语言和计算导论",
+				}
+			],
+			"settings":
+			{
+				"LSP":
+				{
+					"clangd":
+					{
+						"enabled": false,
+					},
+					"haskell-language-server":
+					{
+						"enabled": false,
+					},
+				},
+			},
+		},*/
+		"2":
+		{
+			"folders":
+			[
+				{
+					"path": "D:\\DATA\\Works",
+				},
+				{
+					"path": "D:\\DATA\\Learning\\Scheme",
+				},
+				{
+					"path": "C:\\Users\\absop\\Documents\\GitHub\\Scheme\\SchemeMathBench",
+				},
+				{
+					"path": "D:\\DATA\\Learning\\Python",
+				},
+				{
+					"path": "D:\\DATA\\Learning\\Julia",
+				},
+				{
+					"path": "D:\\DATA\\Github\\yielda",
+				},
+				{
+					"path": "D:\\DATA\\Learning\\C",
+				},
+				{
+					"path": "D:\\DATA\\Learning\\CG",
+				},
+				{
+					"path": "D:\\DATA\\Learning\\Java",
+				},
+				{
+					"path": "D:\\DATA\\Learning\\Network",
+				},
+				{
+					"path": "D:\\DATA\\写作",
+				},
+				{
+					"path": "D:\\DATA\\Learning\\自动机理论,语言和计算导论",
+				}
+			],
+			"settings":
+			{
+				"LSP":
+				{
+					"clangd":
+					{
+						"enabled": false,
+					},
+					"haskell-language-server":
+					{
+						"enabled": false,
+					},
+				},
+			},
+		},
+	},
+	"jdk_version":
+	{
+		"JDK1.8.0u202":
+		{
+			"path": "C:\\Program Files\\Java\\jdk1.8.0_202\\bin",
+			"update": "202",
+			"version": "1.8.0",
+		},
+		"JDK11.0.10":
+		{
+			"path": "C:\\Program Files\\Java\\AdoptOpenJDK\\jdk-11.0.10.9-hotspot\\bin",
+			"version": "11.0.10",
+		},
+		"JDK2019-09-17":
+		{
+			"path": "C:\\Program Files\\Java\\jdk-13\\bin",
+			"version": "2019-09-17",
+		},
+		"use": "",
+	},
+}

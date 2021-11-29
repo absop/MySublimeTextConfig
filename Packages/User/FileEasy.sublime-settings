@@ -1,0 +1,8 @@
+{
+    "SideBarOpenFolderInTerminalCommand.commands": {
+        "windows": "cmder /start \"{}\"",
+        "linux": "gnome-terminal --working-directory={}",
+        "osx": ""
+    },
+    "TabBarCloneFileCommand.number_format": "{}"
+}

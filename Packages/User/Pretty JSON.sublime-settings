@@ -1,0 +1,28 @@
+{
+    "use_entire_file_if_no_selection": true,
+    "indent": 4,
+    "sort_keys": false,
+    "ensure_ascii": false,
+    "line_separator": ",",
+    "value_separator": ": ",
+    "keep_arrays_single_line": true,
+    "max_arrays_line_length": 120,
+    "pretty_on_save": true,
+    "validate_on_save": true,
+    "as_json":
+    [
+        "Packages/JSON/JSON.sublime-syntax",
+
+        "Sublime Text Build System.sublime-syntax",
+        "Sublime Text Color Scheme.sublime-syntax",
+        "Sublime Text Commands.sublime-syntax",
+        "Sublime Text Completions.sublime-syntax",
+        "Sublime Text Keymap.sublime-syntax",
+        "Sublime Text Macro.sublime-syntax",
+        "Sublime Text Menu.sublime-syntax",
+        "Sublime Text Mousemap.sublime-syntax",
+        "Sublime Text Project.sublime-syntax",
+        "Sublime Text Settings.sublime-syntax",
+        "Sublime Text Theme.sublime-syntax"
+    ]
+}

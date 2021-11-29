@@ -1,0 +1,6 @@
+{
+    "target": "pat_build_test",
+    "selector": "source.python",
+    "shell": true,
+    "test_cmd": ["python", "-u", "${file}"]
+}

@@ -1,0 +1,8 @@
+{
+    "afp_valid_scopes": [
+        "text.html.basic - source.php",
+        "source string",
+        "source.css | source.less | source.sass | source.scss",
+        "meta.image.inline.metadata.markdown"
+    ]
+}

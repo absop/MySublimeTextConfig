@@ -1,0 +1,122 @@
+{
+    // `user_scope_brackets` and `user_brackets` will be appended
+    // to the tail of scope_brackets and brackets respectively
+    // If you have custom rules that you don't want to commit to
+    // the official list, and do not need to be inserted before
+    // one of the official definitions, this is a good place to
+    // put yours rules and keep in sync with the defaults.
+    // If you want to disable all gutter icons, please set icon
+    // to none for all region with user_bracket_styles
+    "user_scope_brackets": [],
+    "user_brackets": [
+        {
+            "name":  "round-cn",
+            "open":  "(（)",
+            "close": "(）)",
+            "style": "round",
+            "scope_exclude": [
+                "comment",
+            ],
+            "scope_exclude_exceptions": ["text.tex string.other.math"],
+            "language_filter": "blacklist",
+            "language_list": ["Plain text"],
+            "find_in_sub_search": true,
+            "ignore_string_escape": true,
+            "enabled": true
+        },
+        {
+            "name":  "book",
+            "open":  "(《)",
+            "close": "(》)",
+            "style": "angle",
+            "scope_exclude": [
+                "double_quote",
+            ],
+            "scope_exclude_exceptions": ["text.tex string.other.math"],
+            "language_filter": "blacklist",
+            "language_list": ["Plain text"],
+            "find_in_sub_search": true,
+            "ignore_string_escape": true,
+            "enabled": true
+        },
+    ],
+    "user_bracket_styles": {},
+
+    // Define region highlight styles
+    "bracket_styles": {
+        // `default` and `unmatched` styles are special
+        // styles. If they are not defined here,
+        // they will be generated internally with
+        // internal defaults.
+
+        // `default` style defines attributes that
+        // will be used for any style that does not
+        // explicitly define that attribute.  So if
+        // a style does not define a color, it will
+        // use the color from the "default" style.
+        "default": {
+            "icon": "dot",
+            // Support the old convention of `brackethighlighter.default`
+            // for themes that already provide something.
+            // As this has always been the only one we've provided
+            // by default, all the others will use region-ish colors.
+            "color": "region.purplish brackethighlighter.default",
+            "style": "outline"
+        },
+
+        // This particular style is used to highlight
+        // unmatched bracket pairs.  It is a special
+        // style.
+        "unmatched": {
+            "icon": "question",
+            "color": "region.redish",
+            "style": "outline"
+        },
+        // User defined region styles
+        "curly": {
+            "icon": "curly_bracket",
+            "color": "region.purplish"
+            // "style": "underline"
+        },
+        "round": {
+            "icon": "round_bracket",
+            "color": "region.purplish"
+            // "style": "underline"
+        },
+        "square": {
+            "icon": "square_bracket",
+            "color": "region.bluish"
+            // "style": "underline"
+        },
+        "angle": {
+            "icon": "angle_bracket",
+            "color": "region.orangish"
+            // "style": "underline"
+        },
+        "tag": {
+            "icon": "tag",
+            "color": "region.orangish"
+            // "style": "underline"
+        },
+        "c_define": {
+            "icon": "hash",
+            "color": "region.purplish"
+            // "style": "underline"
+        },
+        "single_quote": {
+            "icon": "single_quote",
+            "color": "region.greenish"
+            // "style": "underline"
+        },
+        "double_quote": {
+            "icon": "double_quote",
+            "color": "region.greenish"
+            // "style": "underline"
+        },
+        "regex": {
+            "icon": "star",
+            "color": "region.greenish"
+            // "style": "underline"
+        }
+    },
+}

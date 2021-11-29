@@ -1,0 +1,11 @@
+{
+	"cmd": ["node", "$file"],
+    "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?",
+    "working_dir": "${project_path:${folder}}",
+    "selector": "source.js",
+    "shell": true,
+    "encoding": "utf-8",
+    "windows": {
+        "cmd": ["node", "$file"]
+    },
+}

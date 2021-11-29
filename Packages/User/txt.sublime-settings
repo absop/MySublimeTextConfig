@@ -1,0 +1,28 @@
+// These settings override both User and Default settings for the Plain text syntax
+{
+    "draw_centered": true,
+    "detect_indentation": false,
+
+    "gutter": true,
+    "line_numbers": true,
+
+    "font_face": "宋体",
+    "font_size": 13,
+
+    "highlight_line": false,
+    "indent_subsequent_lines": false,
+    "index_files": false,
+
+    "line_padding_top": 5,
+    "line_padding_bottom": 5,
+
+    "margin": 4,
+    "rulers": [-1, 80],
+
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+
+    "wrap_width": 80,
+    "word_wrap": true,
+    "word_separators": "\\\"\n|:,;.~`'?!@#$%^&+-*/={[(<>)]}（｛【《》】｝）“‘＊～＋－×÷％’”、，：；。·——…￥！？",
+}

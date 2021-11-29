@@ -1,0 +1,66 @@
+%YAML 1.2
+---
+# http://www.sublimetext.com/docs/3/syntax.html
+#
+# `Lambda` Language Reference:
+#
+
+name: Lambda
+file_extensions:
+  - lambda
+scope: source.lambda
+
+variables:
+  identifier: '[A-Za-z]'
+
+contexts:
+  main:
+    - include: comment
+    - include: expression
+
+  expression:
+    - include: lambda
+    - include: pairs
+    - include: variable
+    - include: bracket
+
+  lambda:
+    - match: (λ)\s*({{identifier}}+)\s*(\.)
+      captures:
+        1: keyword.lambda
+        2: variable.parameter.scheme
+        3: keyword.control.lambda
+
+  bracket:
+    - match: \(
+      scope: punctuation.section.lambda
+      push:
+        - match: \)
+          scope: punctuation.section.lambda
+          pop: true
+        - match: \s
+        - include: expression
+
+  variable:
+    - match: ({{identifier}})
+      scope: variable.lambda
+
+  pairs:
+    - match: ({{identifier}})\s*({{identifier}})
+      captures:
+        1: entity.name.function.lambda
+        2: variable.lambda
+
+  comment:
+    - match: （
+      scope: comment.start.lambda
+      push:
+        - match: ）
+          scope: comment.end.lambda
+          pop: true
+        - match: ([^）]+)
+          scope: comment.lambda
+        - include: bracket
+        - include: comment
+    - match: ([#~*;].*$\n?)
+      scope: comment.line.lambda

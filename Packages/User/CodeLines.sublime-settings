@@ -1,0 +1,9 @@
+
+{
+    "default_pattern": ".*\\\\(?:CodeLines|dctxmenu|Chinese Words Cutter|FileEasy|FontCycler|Scheme|SearchOnline|Translators|ViewTools|Tincter|SublimeDirectoryTree|PinTab|OpenOtherFiles)\\\\.*$",
+
+    "default_path": "D:/SublimeText4/Data/Packages",
+
+    "encoding": "gbk",
+    "debug": false
+}

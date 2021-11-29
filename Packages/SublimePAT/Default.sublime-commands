@@ -1,0 +1,23 @@
+[
+    {
+        "caption": "SublimePAT: Format to Markdown",
+        "command": "format_to_markdown",
+    },
+    {
+        // update readme
+        "caption": "PAT: Update README",
+        "command": "pat_update_readme",
+        "args": {}
+    },
+    {
+        // show problem
+        "caption": "PAT: Show Current Problem",
+        "command": "pat_show_current_problem",
+        "args": {}
+    },
+    {
+        "caption": "PAT: Open Git Terminal",
+        "command": "pat_open_git_terminal",
+        "args": {}
+    }
+]

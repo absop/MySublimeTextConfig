@@ -1,0 +1,12 @@
+{
+    "auto_complete_triggers":
+    [
+        {"characters": ".", "selector": "source.c source.cpp",},
+        {"characters": "->", "selector": "source.c source.cpp",},
+    ],
+    "extensions": ["c++", "h"],
+
+    "tab_size": 4,
+    "auto_complete_cycle": true,
+    "auto_complete_with_fields": true,
+}

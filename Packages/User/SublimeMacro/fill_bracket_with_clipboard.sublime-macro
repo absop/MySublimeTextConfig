@@ -1,0 +1,13 @@
+[
+	{
+		"args":
+		{
+			"to": "brackets"
+		},
+		"command": "expand_selection"
+	},
+	{
+		"args": null,
+		"command": "paste"
+	}
+]

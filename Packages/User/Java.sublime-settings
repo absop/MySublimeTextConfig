@@ -1,0 +1,13 @@
+// These settings override both User and Default settings for the Java syntax
+{
+	// "font_face": "Lucida Console",
+	// // "font_face": "Lucida Typewriter",
+	// // "font_face": "AndaleTeletextW01-Regular",
+	// "font_size": 13,
+	// "line_padding_bottom": 2,
+	// "line_padding_top": 2,
+	// "font_options":
+	// [
+	// 	"no_italic"
+	// ],
+}

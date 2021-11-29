@@ -1,0 +1,8 @@
+{
+    "platforms": {
+        "Baidu": "https://www.baidu.com/s?ie=UTF-8&wd=%s",
+        "Github": "https://github.com/search?q=%s&type=Code",
+        "Google": "http://google.com/search?q=%s",
+        "Wiki": "https://en.wikipedia.org/wiki/%s"
+    }
+}

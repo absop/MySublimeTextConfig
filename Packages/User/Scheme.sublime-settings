@@ -1,0 +1,9 @@
+{
+	"auto_complete_selector": "meta.tag - punctuation.definition.tag.begin, source - comment - string.quoted.double.block - string.unquoted.heredoc",
+	"auto_match_enabled": true,
+	"show_definitions": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"word_separators": "|`'#[]{,}()\"\n",
+	"word_wrap": false,
+}

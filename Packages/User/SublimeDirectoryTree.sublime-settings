@@ -1,0 +1,15 @@
+// SublimeDirectoryTree Preferences – User
+// ====================================================
+
+{
+    "args": {
+        "dir_tail_character": "/",
+        "indent": 4,
+        "layer": 2,
+        "mode": "df",
+        "show_absolute_path_of_rootdir": false,
+        "show_hidden": false,
+        "show_size": true,
+        "sparse": false
+    }
+}

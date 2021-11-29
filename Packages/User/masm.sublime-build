@@ -1,0 +1,13 @@
+{
+    "cmd": ["asm.bat", "$file_base_name"],
+    "file_regex": "^[]*File\"(...*?)\",line([0-9]*)",
+    "selector": "source.asm",
+    "encoding": "cp936",
+    "variants": [
+        {
+            "name": "Run",
+            "cmd": ["cmd", "/c", "start", "cmd", "/c", "$file_base_name.exe &echo.&pause"],
+            "shell": true
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+%YAML 1.2
+---
+name: HAML (Rails)
+scope: text.haml
+hidden: true
+file_extensions:
+  - haml
+contexts:
+  main: []

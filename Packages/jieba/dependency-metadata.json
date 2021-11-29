@@ -1,0 +1,1 @@
+{"description": "A Chinese text segementation lib.", "version": "1.0.0", "url": "https://github.com/jfcherng-sublime/ST-jieba/issues", "sublime_text": ">=3000", "platforms": ["*"]}

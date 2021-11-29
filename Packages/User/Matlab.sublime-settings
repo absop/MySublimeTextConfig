@@ -1,0 +1,4 @@
+// These settings override both User and Default settings for the Matlab syntax
+{
+    "font_options": ["no_italic"],
+}

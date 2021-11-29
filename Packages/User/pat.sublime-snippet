@@ -1,0 +1,15 @@
+<snippet>
+    <description>pat</description>
+    <content><![CDATA[#include <stdio.h>
+#include <stdbool.h>
+#include <memory.h>
+#include <stdlib.h>
+
+
+int main()
+{
+    $0
+}]]></content>
+    <tabTrigger>inc</tabTrigger>
+    <scope>source.c | source.objc | source.c++ | source.objc++</scope>
+</snippet>

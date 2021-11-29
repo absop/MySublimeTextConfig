@@ -1,0 +1,7 @@
+{
+    "target": "pat_build_test",
+    "selector": "source.c++",
+    "shell": true,
+    "compile_cmd": ["g++", "${file}", "-o", "${cache_path}/${file_base_name}"],
+    "test_cmd": ["${cache_path}/${file_base_name}"]
+}

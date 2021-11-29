@@ -1,0 +1,31 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+    "variables":
+    {
+        "viewport_always_visible_color": "hsla(0, 0%, 50%, 0.18)",
+        "viewport_hide_show_color": "hsla(200, 20%, 60%, 0.25)",
+
+        "tab_height": 30,
+    },
+    "rules":
+    [
+        {
+            "class": "minimap_control",
+            "settings": ["always_show_minimap_viewport"],
+            "viewport_color": "var(viewport_always_visible_color)",
+            "viewport_opacity": 1.0,
+        },
+        {
+            "class": "minimap_control",
+            "settings": ["!always_show_minimap_viewport"],
+            "viewport_color": "var(viewport_hide_show_color)",
+            "viewport_opacity": { "target": 0.0, "speed": 4.0, "interpolation": "smoothstep" },
+        },
+        {
+            "class": "minimap_control",
+            "attributes": ["hover"],
+            "settings": ["!always_show_minimap_viewport"],
+            "viewport_opacity": { "target": 1.0, "speed": 20.0, "interpolation": "smoothstep" },
+        },
+    ]
+}

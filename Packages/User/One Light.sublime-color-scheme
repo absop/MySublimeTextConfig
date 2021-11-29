@@ -1,0 +1,10 @@
+{
+    "rules":
+    [
+        {
+          "scope": "meta.comment",
+          "foreground_adjust": "l(+ 15%) s(- 30%)",
+          "background": "var(--background)"
+        }
+    ]
+}

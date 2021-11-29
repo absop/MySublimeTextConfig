@@ -1,0 +1,189 @@
+[
+    {
+        "keys": ["ctrl+b"],
+        "command": "move_to", "args": {"extend": false, "to": "bol"}
+    },
+    {
+        "keys": ["ctrl+e"],
+        "command": "move_to", "args": {"extend": false, "to": "eol"}
+    },
+    {
+        "keys": ["ctrl+shift+b"],
+        "command": "move_to", "args": {"extend": true, "to": "bol"}
+    },
+    {
+        "keys": ["ctrl+shift+e"],
+        "command": "move_to", "args": {"extend": true, "to": "eol"}
+    },
+    {
+        "keys": ["ctrl+0", "ctrl+b"],
+        "command": "move_to", "args": {"extend": false, "to": "bof"}
+    },
+    {
+        "keys": ["ctrl+0", "ctrl+e"],
+        "command": "move_to", "args": {"extend": false, "to": "eof"}
+    },
+    {
+        "keys": ["ctrl+0", "ctrl+shift+b"],
+        "command": "move_to", "args": {"extend": true, "to": "bof"}
+    },
+    {
+        "keys": ["ctrl+0", "ctrl+shift+e"],
+        "command": "move_to", "args": {"extend": true, "to": "eof"}
+    },
+
+    {
+        "keys": ["ctrl+\\"],
+        "command": "add_line_feeds",
+        "context": [
+            {"key": "selector", "operand": "source.c, source.c++", "operator": "equal"}
+        ]
+    },
+    {
+        "keys": ["ctrl+alt+/"],
+        "command": "run_macro_file", "args": {"file": "res://Packages/User/SublimeMacro/fill_bracket_with_clipboard.sublime-macro"}
+    },
+    {
+        "keys": ["ctrl+alt+\\"],
+        "command": "run_macro_file", "args": {"file": "res://Packages/User/SublimeMacro/sent_bracket_to_clipboard.sublime-macro"}
+    },
+    {
+        "keys": ["ctrl+alt+c"],
+        "command": "color_highlighter_pick_color"
+    },
+    {
+        "keys": ["ctrl+alt+e"],
+        "command": "slurp_find_string"
+    },
+    {
+        "keys": ["ctrl+alt+e"],
+        "command": "cancel_build"
+    },
+    {
+        "keys": ["ctrl+alt+j"],
+        "command": "js_format",
+        "context": [
+            {"key": "selector", "operand": "source.js", "operator": "equal"}
+        ]
+    },
+    {
+        "keys": ["ctrl+alt+k"],
+        "command": "edit_settings", "args": {"base_file": "${packages}/Default/Default ($platform).sublime-keymap", "default": "[\n\t$0\n]\n"}
+    },
+    {
+        "keys": ["ctrl+alt+p"],
+        "command": "prompt_select_workspace"
+    },
+    {
+        "keys": ["ctrl+alt+s"],
+        "command": "edit_settings", "args": {"base_file": "${packages}/Default/Preferences.sublime-settings", "default": "// Settings in here override those in \"Default/Preferences.sublime-settings\",\n// and are overridden in turn by syntax-specific settings.\n{\n\t$0\n}\n"}
+    },
+    {
+        "keys": ["ctrl+alt+shift+e"],
+        "command": "slurp_replace_string"
+    },
+    {
+        "keys": ["ctrl+alt+t"],
+        "command": "execute_shell_command",
+        "args": {
+            "command": ["Cmder.exe", "\"${file_path}\""],
+            "shell": true,
+            // "show_output_panel": false
+        }
+    },
+    {
+        "keys": ["ctrl+alt+up"],
+        "command": "select_lines", "args": {"forward": false}
+    },
+    {
+        "keys": ["ctrl+k", "'"],
+        "command": "set_mark"
+    },
+    {
+        "keys": ["ctrl+k", "c"],
+        "command": "convert_to_utf8", "args": {"encoding": "GBK", "stamp": "0"}
+    },
+    {
+        "keys": ["ctrl+k", "ctrl+0"],
+        "command": "unfold_all"
+    },
+    {
+        "keys": ["ctrl+k", "ctrl+["],
+        "command": "fold_all"
+    },
+    {
+        "keys": ["ctrl+k", "ctrl+backspace"],
+        "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to BOL.sublime-macro"}
+    },
+    {
+        "keys": ["ctrl+k", "ctrl+c"],
+        "command": "show_at_center"
+    },
+    {
+        "keys": ["ctrl+k", "ctrl+j"],
+        "command": "unfold_all"
+    },
+    {
+        "keys": ["ctrl+k", "ctrl+m"],
+        "command": "toggle_menu"
+    },
+    {
+        "keys": ["ctrl+k", "ctrl+s"],
+        "command": "run_macro_file", "args": {"file": "res://Packages/User/SublimeMacro/select_line_visible.sublime-macro"}
+    },
+    {
+        "keys": ["ctrl+k", "ctrl+t"],
+        "command": "toggle_tabs"
+    },
+    {
+        "keys": ["ctrl+k", "l"],
+        "command": "sublime_linter_lint"
+    },
+    {
+        "keys": ["ctrl+k", "p"],
+        "command": "sublimelinter_goto_error", "args": {"direction": "previous"}
+    },
+    {
+        "keys": ["ctrl+k", "t"],
+        "command": "sublimelinter_toggle_linter", "args": {"which": "all"}
+    },
+    {
+        "keys": ["ctrl+k", "tab"],
+        "command": "auto_complete"
+    },
+    {
+        "keys": ["ctrl+k", "tab"],
+        "command": "replace_completion_with_auto_complete",
+        "context": [
+            {"key": "auto_complete_visible", "operand": false, "operator": "equal"},
+            {"key": "last_command", "operand": "insert_best_completion", "operator": "equal"},
+            {"key": "setting.tab_completion", "operand": true, "operator": "equal"}
+        ]
+    },
+    {
+        "keys": ["ctrl+k", "u"],
+        "command": "convert_to_utf8", "args": {"encoding": "UTF8", "stamp": "0"}
+    },
+    {
+        "keys": ["ctrl+option+a"],
+        "command": "clang_format", "args": {"whole_buffer": true},
+        "context": [
+            {"key": "selector", "operand": "source.c, source.c++", "operator": "equal"}
+        ]
+    },
+    {
+        "keys": ["ctrl+option+i"],
+        "command": "clang_format", "args": {"whole_buffer": false},
+        "context": [
+            {"key": "selector", "operand": "source.c, source.c++", "operator": "equal"}
+        ]
+    },
+    {
+        "keys": ["ctrl+shift+c"],
+        "command": "copy_path"
+    },
+
+    { "keys": ["f1"], "command": "toggle_side_bar" },
+    { "keys": ["f5"], "command": "build", "args": {"variable": "Run"} },
+    { "keys": ["f7"], "command": "build", "args": {"select": true} }
+]

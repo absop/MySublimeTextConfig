@@ -1,0 +1,53 @@
+// DynamicMenus Preferences – User
+// ====================================================
+
+{
+    // Translate selected words.
+    "translator": {
+        "caption": "Translator",
+        "separator": "|\\\n\f\t /:,;<>.+=-_~`'\"!@#$%^&*({[（《：；·，。—￥？！……‘’“”、》）]})",
+        "auto_select": true,
+        // path to css file for mdpopups
+        "mdpopups.css": "Packages/DynamicMenus/mdpopups.css",
+        // options: "phantom", "popup" and "view"
+        "style": "popup",
+
+        "platforms": {
+            "youdao": {
+                "enabled": true,
+                "caption": "有道翻译",
+                "from": "auto",
+                "to": "auto",
+                "api_url": "http://openapi.youdao.com/api",
+                "app_id": "080a973d49bc1bfd",
+                "app_key": "LLlo0ayGDyEHAaB1ypWuqLnv5SY4gsN5"
+            },
+            "google": {
+                // not implement!
+                "enabled": false,
+                "caption": "Google",
+                "api_url": "",
+                "app_id": "",
+                "app_key": "",
+            }
+        }
+    },
+
+    // Search selected words online.
+    "search_online": {
+        "enabled": true,
+        "caption": "Search Online",
+        "platforms": {
+            "Wiki": "https://en.wikipedia.org/wiki/%s",
+            "Github": "https://github.com/search?q=%s&type=Code",
+            "Baidu": "https://www.baidu.com/s?ie=UTF-8&wd=%s",
+            // "Google" : "http://google.com/#q=%s",
+        }
+    },
+
+    "open_other_files":{
+        "enabled": true,
+        "caption": "Open Other Files",
+    }
+}
+

@@ -1,0 +1,11 @@
+{
+    "selector": "source.python",
+    "cmd": [
+        "cmd", "/c",
+        "start", "cmd", "/c", "py -u ${file_name} &echo.&pause"
+    ],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "encoding": "utf-8",
+    "env": { "PYTHONIOENCODING": "utf-8" },
+    "working_dir": "${file_path}"
+}

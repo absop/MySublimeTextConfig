@@ -1,0 +1,22 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+    "variables":
+    {
+        "viewport_always_visible_color": "hsla(0, 0%, 50%, 0.18)",
+        "viewport_hide_show_color": "hsla(200, 20%, 60%, 0.25)",
+
+        "tab_height": 30,
+    },
+    "rules":
+    [
+        {
+            "class": "vcs_status_badge",
+            "parents": [
+                { "class": "file_system_entry", "attributes": ["untracked"] }
+            ],
+            "layer0.texture": "Github Theme/textures/vcs/diff_untracked.png",
+            "layer0.tint": "var(vcs_untracked)",
+            "content_margin": "var(vcs_badge_size)"
+        },
+    ]
+}

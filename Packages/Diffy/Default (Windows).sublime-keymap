@@ -1,0 +1,13 @@
+[
+  {
+    "keys": ["ctrl+k", "d"],
+    "command": "diffy"
+  },
+  {
+    "keys": ["ctrl+k", "k"],
+    "command": "diffy",
+    "args": {
+      "action": "clear"
+    }
+  }
+]

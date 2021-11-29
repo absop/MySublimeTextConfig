@@ -1,0 +1,7 @@
+// These settings override both User and Default settings for the Python syntax
+{
+    "tab_size": 4,
+    "rulers": [ 81 ],
+    "wrap_width": 81,
+    "word_wrap": true
+}
