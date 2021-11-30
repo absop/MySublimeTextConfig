@@ -67,6 +67,10 @@
     path =  Packages/DirectoryTree
     url  =  https://github.com/absop/ST-DirectoryTree
 
+[submodule "Packages/ColorPainter"]
+    path =  Packages/ColorPainter
+    url  =  https://github.com/absop/ST-ColorPainter
+
 [submodule "Packages/ViewTools"]
     path =  Packages/ViewTools
     url  =  https://github.com/absop/ST-ViewTools
