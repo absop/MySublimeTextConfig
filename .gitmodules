@@ -1,0 +1,76 @@
+[submodule "Packages/Animation"]
+    path =  Packages/Animation
+    url  =  https://github.com/absop/Animation
+
+[submodule "Packages/ChineseWordsCutter"]
+    path =  Packages/ChineseWordsCutter
+    url  =  https://github.com/absop/ChineseTokenizer.git
+
+[submodule "Packages/ContextShellCommand"]
+    path =  Packages/ContextShellCommand
+    url  =  https://github.com/absop/ContextShellCommand
+
+[submodule "Packages/dctxmenu"]
+    path =  Packages/dctxmenu
+    url  =  https://github.com/absop/dctxmenu
+
+[submodule "Packages/FontList"]
+    path =  Packages/FontList
+    url  =  https://github.com/absop/FontList
+
+[submodule "Packages/PinTab"]
+    path =  Packages/PinTab
+    url  =  https://github.com/absop/PinTab.git
+
+[submodule "Packages/QuickFileBrowser"]
+    path =  Packages/QuickFileBrowser
+    url  =  https://github.com/absop/QuickFileBrowser.git
+
+[submodule "Packages/QuickOpenFile"]
+    path =  Packages/QuickOpenFile
+    url  =  https://github.com/absop/QuickOpenFile.git
+
+[submodule "Packages/ReadOnlyIndicator"]
+    path =  Packages/ReadOnlyIndicator
+    url  =  https://github.com/absop/ReadOnlyIndicator
+
+[submodule "Packages/Scheme"]
+    path =  Packages/Scheme
+    url  =  https://github.com/absop/Scheme
+
+[submodule "Packages/SearchOnline"]
+    path =  Packages/SearchOnline
+    url  =  https://github.com/absop/SearchOnline
+
+
+[submodule "Packages/AutoFilePath"]
+    path =  Packages/AutoFilePath
+    url  =  https://github.com/jfcherng-sublime/ST-AutoFilePath
+
+[submodule "Packages/CodeLines"]
+    path =  Packages/CodeLines
+    url  =  https://github.com/absop/ST-CodeLines
+
+[submodule "Packages/FileEasy"]
+    path =  Packages/FileEasy
+    url  =  https://github.com/absop/ST-FileEasy
+
+[submodule "Packages/RepeatHint"]
+    path =  Packages/RepeatHint
+    url  =  https://github.com/absop/ST-RepeatHint
+
+[submodule "Packages/Game2048"]
+    path =  Packages/Game2048
+    url  =  https://github.com/absop/ST-2048
+
+[submodule "Packages/DirectoryTree"]
+    path =  Packages/DirectoryTree
+    url  =  https://github.com/absop/ST-DirectoryTree
+
+[submodule "Packages/ViewTools"]
+    path =  Packages/ViewTools
+    url  =  https://github.com/absop/ST-ViewTools
+
+[submodule "Packages/YoudaoTranslator"]
+    path =  Packages/YoudaoTranslator
+    url  =  https://github.com/absop/ST-YoudaoTranslator
