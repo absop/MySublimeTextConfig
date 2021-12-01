@@ -59,8 +59,8 @@
     path =  Packages/RepeatHint
     url  =  https://github.com/absop/ST-RepeatHint
 
-[submodule "Packages/Game2048"]
-    path =  Packages/Game2048
+[submodule "Packages/2048"]
+    path =  Packages/2048
     url  =  https://github.com/absop/ST-2048
 
 [submodule "Packages/DirectoryTree"]
