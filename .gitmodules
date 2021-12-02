@@ -36,7 +36,7 @@
 
 [submodule "Packages/Scheme"]
     path =  Packages/Scheme
-    url  =  https://github.com/absop/Scheme
+    url  =  https://github.com/absop/ST-Scheme
 
 [submodule "Packages/SearchOnline"]
     path =  Packages/SearchOnline
