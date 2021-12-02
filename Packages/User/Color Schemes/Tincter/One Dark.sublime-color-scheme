@@ -1,1 +1,0 @@
-{"globals": {}, "name": "Tincter", "variables": {}, "author": "https://github.com/absop", "rules": [{"foreground": "grey", "name": "tincter_color_0", "scope": "0.color.tincter", "background": "#282c34"}]}
