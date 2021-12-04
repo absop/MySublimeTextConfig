@@ -30,6 +30,10 @@
     path =  Packages/QuickOpenFile
     url  =  https://github.com/absop/QuickOpenFile.git
 
+[submodule "Packages/RainbowBrackets"]
+    path =  Packages/RainbowBrackets
+    url  =  https://github.com/absop/RainbowBrackets
+
 [submodule "Packages/ReadOnlyIndicator"]
     path =  Packages/ReadOnlyIndicator
     url  =  https://github.com/absop/ReadOnlyIndicator
