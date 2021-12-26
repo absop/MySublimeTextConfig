@@ -78,12 +78,12 @@
 	],
 	"repositories":
 	[
-		"https://github.com/absop/Scheme",
 		"https://github.com/absop/RainbowBrackets",
 		"https://github.com/absop/SearchOnline",
 		"https://github.com/absop/dctxmenu",
 		"https://github.com/absop/ST-CodeLines",
 		"https://github.com/absop/ST-YoudaoTranslator",
+		"https://github.com/absop/ST-Scheme",
 	],
 	"ignore_vcs_packages": true,
 	"debug": false,

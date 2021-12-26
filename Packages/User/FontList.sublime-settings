@@ -2,6 +2,16 @@
 	"font_list":
 	[
 		{
+			"font_face": "Fira Code",
+			"line_padding_bottom": 1,
+			"line_padding_top": 1,
+		},
+		{
+			"font_face": "Lucida Console",
+			"line_padding_bottom": 1,
+			"line_padding_top": 1,
+		},
+		{
 			"font_face": "Code New Roman",
 			"line_padding_bottom": 0,
 			"line_padding_top": 0,
@@ -13,16 +23,6 @@
 		},
 		{
 			"font_face": "Fira Code Retina",
-			"line_padding_bottom": 1,
-			"line_padding_top": 1,
-		},
-		{
-			"font_face": "Fira Code",
-			"line_padding_bottom": 1,
-			"line_padding_top": 1,
-		},
-		{
-			"font_face": "Lucida Console",
 			"line_padding_bottom": 1,
 			"line_padding_top": 1,
 		},

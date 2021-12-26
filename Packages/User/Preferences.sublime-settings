@@ -8,11 +8,11 @@
 	"theme": "GitHub Light.sublime-theme",
 
 	"caret_style": "smooth",
-	"font_face": "Code New Roman",
+	"font_face": "Fira Code",
 	"font_size": 11,
 	"font_options": ["no_italic"],
-	"line_padding_top": 0,
-	"line_padding_bottom": 0,
+	"line_padding_top": 1,
+	"line_padding_bottom": 1,
 
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
@@ -77,7 +77,6 @@
 	],
 
 	"ignored_packages": [
-		"2048",
 		"ActionScript",
 		"AppleScript",
 		"ASP",

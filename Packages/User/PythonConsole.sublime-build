@@ -2,7 +2,7 @@
     "selector": "source.python",
     "cmd": [
         "cmd", "/c",
-        "start", "cmd", "/c", "py -u ${file_name} &echo.&pause"
+        "start", "cmd", "/c", "python -u ${file_name} &echo.&pause"
     ],
     "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
     "encoding": "utf-8",
