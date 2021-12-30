@@ -2,20 +2,10 @@
     "debug": true,
 
     "syntax_specific": {
-        "Scheme": {
-            "bracket_pairs": {
-                "(": ")",
-                "[": "]",
-            },
+        "Bash": {
+            "coloring": false,
 
-            "extensions": [
-                ".scm",
-                ".ss"
-            ],
-
-            "ignored_scopes": [
-                "comment", "string", "constant"
-            ]
+            "ignored_scopes": "keyword"
         },
 
         "JSON": {
@@ -40,7 +30,7 @@
             ]
         },
 
-        "Regexp": {
+        "Regular Expression": {
             "extensions": [
                 ".sublime-syntax"
             ],
@@ -48,6 +38,22 @@
             "ignored_scopes": [
                 "meta.set.regexp",
                 "constant"
+            ]
+        },
+
+        "Scheme": {
+            "bracket_pairs": {
+                "(": ")",
+                "[": "]",
+            },
+
+            "extensions": [
+                ".scm",
+                ".ss"
+            ],
+
+            "ignored_scopes": [
+                "comment", "string", "constant"
             ]
         }
     }
