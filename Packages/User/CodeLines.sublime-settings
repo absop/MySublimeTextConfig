@@ -1,8 +1,8 @@
 
 {
-    "default_pattern": ".*\\\\(?:CodeLines|dctxmenu|Chinese Words Cutter|FileEasy|FontCycler|Scheme|SearchOnline|Translators|ViewTools|Tincter|SublimeDirectoryTree|PinTab|OpenOtherFiles)\\\\.*$",
+    "default_pattern": ".*\\\\(?:2048|Animation|ChineseWordsCutter|CodeLines|ColorPainter|ContextShellCommand|dctxmenu|DirectoryTree|FileEasy|FontList|PinTab|QuickFileBrowser|QuickOpenFile|RainbowBrackets|ReadOnlyIndicator|RepeatHint|Scheme|SearchOnline|SublimePAT|ViewTools|YoudaoTranslator)\\\\.*$",
 
-    "default_path": "D:/SublimeText4/Data/Packages",
+    "default_path": "D:/Programs/SublimeText4/Data/Packages",
 
     "encoding": "gbk",
     "debug": false
