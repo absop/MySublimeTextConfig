@@ -1,35 +1,76 @@
 {
-    "caption" : "快速打开文件",
+    "items_limit": 30,
 
-    "subitems" : [
+    "caption": "Quick Open File",
+
+    "folder_menus": [
         {
-            "caption" : "在Sublime Text中打开",
-            "command" : "open_file",
-            "args" : {"file" : "${path}"},
-            "exts" : ".*"
+            "caption": "Open In Explorer",
+            "command": "open_dir",
+            "args": {
+                "dir": "${path}"
+            }
+        }
+    ],
+
+    "file_menus": [
+        {
+            "caption": "Open with Sublime Text",
+            "command": "open_file",
+            "args": {
+                "file": "${path}"
+            },
         },
         {
-            "caption" : "选择打开方式",
-            "command" : "open_file_with",
-            "args" : {"file" : "${path}"},
-            "exts" : ".*"
+            "caption": "Open with",
+            "command": "open_file_with",
+            "args": {
+                "file": "${path}"
+            },
         },
         {
-            "caption" : "用默认应用打开",
-            "command" : "open_file_with_default_application",
-            "args" : {"file" : "${path}"},
-            "exts" : ".*"
+            "caption": "Open with Default App",
+            "command": "open_file_with_default_application",
+            "args": {
+                "file": "${path}"
+            },
         },
         {
-            "caption" : "查看图片",
-            "command" : "open_file_with_default_application",
-            "args" : {"file" : "${path}"},
-            "exts" : [
-                ".pdf",
-                ".png",
-                ".jpg",
-                ".jpeg"
+            "caption": "View Images",
+            "command": "open_file_with_default_application",
+            "args": {
+                "file": "${path}"
+            },
+            "selector": [
+                "*.pdf",
+                "*.png",
+                "*.jpg",
+                "*.jpeg",
             ]
         }
+    ],
+
+    "file_exclude_patterns": [
+        "*.pyc",
+        "*.pyo",
+        "*.exe",
+        "*.dll",
+        "*.obj",
+        "*.o",
+        "*.a",
+        "*.lib",
+        "*.so",
+        "*.dylib",
+        "*.ncb",
+        "*.sdf",
+        "*.suo",
+        "*.pdb",
+        "*.idb",
+        ".DS_Store",
+        ".directory",
+        "desktop.ini",
+        "*.class",
+        "*.psd",
+        "*.db"
     ]
 }
