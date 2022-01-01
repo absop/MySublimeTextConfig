@@ -86,4 +86,4 @@
 
 [submodule "Packages/SelfPatcher"]
     path =  Packages/SelfPatcher
-    url  =  https://github.com/jfcherng-sublime/ST-SelfPatcher
+    url  =  https://absop@github.com/jfcherng-sublime/ST-SelfPatcher
