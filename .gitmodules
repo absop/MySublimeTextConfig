@@ -4,7 +4,7 @@
 
 [submodule "Packages/ChineseWordsCutter"]
     path =  Packages/ChineseWordsCutter
-    url  =  https://github.com/absop/ChineseTokenizer.git
+    url  =  https://github.com/absop/ChineseTokenizer
 
 [submodule "Packages/ContextShellCommand"]
     path =  Packages/ContextShellCommand
@@ -20,15 +20,15 @@
 
 [submodule "Packages/PinTab"]
     path =  Packages/PinTab
-    url  =  https://github.com/absop/PinTab.git
+    url  =  https://github.com/absop/PinTab
 
 [submodule "Packages/QuickFileBrowser"]
     path =  Packages/QuickFileBrowser
-    url  =  https://github.com/absop/QuickFileBrowser.git
+    url  =  https://github.com/absop/QuickFileBrowser
 
 [submodule "Packages/QuickOpenFile"]
     path =  Packages/QuickOpenFile
-    url  =  https://github.com/absop/QuickOpenFile.git
+    url  =  https://github.com/absop/QuickOpenFile
 
 [submodule "Packages/RainbowBrackets"]
     path =  Packages/RainbowBrackets
@@ -82,3 +82,8 @@
 [submodule "Packages/YoudaoTranslator"]
     path =  Packages/YoudaoTranslator
     url  =  https://github.com/absop/ST-YoudaoTranslator
+
+
+[submodule "Packages/SelfPatcher"]
+    path =  Packages/SelfPatcher
+    url  =  https://github.com/jfcherng-sublime/ST-SelfPatcher
