@@ -1,6 +1,0 @@
-{
-    "enabled": true,
-    "strict_mode": true,
-    "syntax": ["Scheme", "JSON"],
-    "file_name": []
-}
