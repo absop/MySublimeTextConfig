@@ -1,0 +1,20 @@
+// These settings override both User and Default settings for the Plain text syntax
+{
+    "detect_indentation": false,
+
+    "highlight_line": false,
+    "indent_subsequent_lines": false,
+    "index_files": false,
+
+    "line_padding_top": 2,
+    "line_padding_bottom": 2,
+
+    "rulers": [81],
+
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+
+    "wrap_width": 80,
+    "word_wrap": true,
+    "word_separators": "\\\"\n|:,;.~`'?!@#$%^&+-*/={[(<>)]}（｛【《》】｝）“‘＊～＋－×÷％’”、，：；。·——…￥！？",
+}
