@@ -16,7 +16,15 @@
 
   // Specify common flags that will be passed to clang for EVERY build.
   "common_flags" : [
-     "-ID:/SublimeText3/Data/Packages/User/Tinycc/include",
+    // some example includes
+    "-I/usr/include",
+    "-I$project_base_path/src",
+    "-I$project_base_path/include",
+    // this is needed to include the correct headers for clang
+    "-I/usr/lib/clang/$clang_version/include",
+    // For simple projects, you can add a folder where your current file is
+    "-I$file_path",
+    "-ID:/Programs/Msys64/mingw64/x86_64-w64-mingw32/include",
   ],
 
   // Language-specific flags. Prepend common_flags for files of given language.
@@ -95,12 +103,6 @@
 
   // make plugin verbose
   "verbose" : false,
-
-  // add folder with current file with `-I` flag
-  "include_file_folder" : true,
-
-  // add parent folder of the current file's one with `-I` flag
-  "include_file_parent_folder" : true,
 
   // Pick the clang binary used by the plugin. This is used to determine the
   // version of the plugin and pick correct libclang bindings. Note that this
