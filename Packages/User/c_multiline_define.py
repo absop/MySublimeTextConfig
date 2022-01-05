@@ -16,5 +16,3 @@ class AddLineFeedsCommand(sublime_plugin.TextCommand):
             space = ' ' * (maxlen - len(line))
             text = content + space + "\\"
             self.view.replace(edit, line, text)
-
-
