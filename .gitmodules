@@ -1,34 +1,54 @@
+[submodule "Packages/2048"]
+    path =  Packages/2048
+    url  =  https://github.com/absop/ST-2048
+
 [submodule "Packages/Animation"]
     path =  Packages/Animation
-    url  =  https://github.com/absop/Animation
+    url  =  https://github.com/absop/ST-Animation
 
 [submodule "Packages/ChineseWordsCutter"]
     path =  Packages/ChineseWordsCutter
-    url  =  https://github.com/absop/ChineseTokenizer
+    url  =  https://github.com/absop/ST-ChineseTokenizer
+
+[submodule "Packages/CodeLines"]
+    path =  Packages/CodeLines
+    url  =  https://github.com/absop/ST-CodeLines
+
+[submodule "Packages/ColorPainter"]
+    path =  Packages/ColorPainter
+    url  =  https://github.com/absop/ST-ColorPainter
 
 [submodule "Packages/ContextShellCommand"]
     path =  Packages/ContextShellCommand
-    url  =  https://github.com/absop/ContextShellCommand
+    url  =  https://github.com/absop/ST-ContextShellCommand
 
 [submodule "Packages/dctxmenu"]
     path =  Packages/dctxmenu
-    url  =  https://github.com/absop/dctxmenu
+    url  =  https://github.com/absop/ST-dctxmenu
+
+[submodule "Packages/DirectoryTree"]
+    path =  Packages/DirectoryTree
+    url  =  https://github.com/absop/ST-DirectoryTree
+
+[submodule "Packages/FileEasy"]
+    path =  Packages/FileEasy
+    url  =  https://github.com/absop/ST-FileEasy
 
 [submodule "Packages/FontList"]
     path =  Packages/FontList
-    url  =  https://github.com/absop/FontList
+    url  =  https://github.com/absop/ST-FontList
 
 [submodule "Packages/PinTab"]
     path =  Packages/PinTab
-    url  =  https://github.com/absop/PinTab
+    url  =  https://github.com/absop/ST-PinTab
 
 [submodule "Packages/QuickFileBrowser"]
     path =  Packages/QuickFileBrowser
-    url  =  https://github.com/absop/QuickFileBrowser
+    url  =  https://github.com/absop/ST-QuickFileBrowser
 
 [submodule "Packages/QuickOpenFile"]
     path =  Packages/QuickOpenFile
-    url  =  https://github.com/absop/QuickOpenFile
+    url  =  https://github.com/absop/ST-QuickOpenFile
 
 [submodule "Packages/RainbowBrackets"]
     path =  Packages/RainbowBrackets
@@ -36,7 +56,11 @@
 
 [submodule "Packages/ReadOnlyIndicator"]
     path =  Packages/ReadOnlyIndicator
-    url  =  https://github.com/absop/ReadOnlyIndicator
+    url  =  https://github.com/absop/ST-ReadOnlyIndicator
+
+[submodule "Packages/RepeatHint"]
+    path =  Packages/RepeatHint
+    url  =  https://github.com/absop/ST-RepeatHint
 
 [submodule "Packages/Scheme"]
     path =  Packages/Scheme
@@ -44,36 +68,7 @@
 
 [submodule "Packages/SearchOnline"]
     path =  Packages/SearchOnline
-    url  =  https://github.com/absop/SearchOnline
-
-
-[submodule "Packages/AutoFilePath"]
-    path =  Packages/AutoFilePath
-    url  =  https://github.com/jfcherng-sublime/ST-AutoFilePath
-
-[submodule "Packages/CodeLines"]
-    path =  Packages/CodeLines
-    url  =  https://github.com/absop/ST-CodeLines
-
-[submodule "Packages/FileEasy"]
-    path =  Packages/FileEasy
-    url  =  https://github.com/absop/ST-FileEasy
-
-[submodule "Packages/RepeatHint"]
-    path =  Packages/RepeatHint
-    url  =  https://github.com/absop/ST-RepeatHint
-
-[submodule "Packages/2048"]
-    path =  Packages/2048
-    url  =  https://github.com/absop/ST-2048
-
-[submodule "Packages/DirectoryTree"]
-    path =  Packages/DirectoryTree
-    url  =  https://github.com/absop/ST-DirectoryTree
-
-[submodule "Packages/ColorPainter"]
-    path =  Packages/ColorPainter
-    url  =  https://github.com/absop/ST-ColorPainter
+    url  =  https://github.com/absop/ST-SearchOnline
 
 [submodule "Packages/ViewTools"]
     path =  Packages/ViewTools
@@ -83,6 +78,10 @@
     path =  Packages/YoudaoTranslator
     url  =  https://github.com/absop/ST-YoudaoTranslator
 
+
+[submodule "Packages/AutoFilePath"]
+    path =  Packages/AutoFilePath
+    url  =  https://github.com/jfcherng-sublime/ST-AutoFilePath
 
 [submodule "Packages/SelfPatcher"]
     path =  Packages/SelfPatcher
