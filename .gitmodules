@@ -30,6 +30,10 @@
     path =  Packages/DirectoryTree
     url  =  https://github.com/absop/ST-DirectoryTree
 
+[submodule "Packages/EncodingConverter"]
+    path =  Packages/EncodingConverter
+    url  =  https://github.com/absop/ST-EncodingConverter
+
 [submodule "Packages/FileEasy"]
     path =  Packages/FileEasy
     url  =  https://github.com/absop/ST-FileEasy
