@@ -24,7 +24,7 @@
     "-I/usr/lib/clang/$clang_version/include",
     // For simple projects, you can add a folder where your current file is
     "-I$file_path",
-    "-ID:/Programs/Msys64/mingw64/x86_64-w64-mingw32/include",
+    "-I${MINGW64_PATH}/x86_64-w64-mingw32/include",
   ],
 
   // Language-specific flags. Prepend common_flags for files of given language.
