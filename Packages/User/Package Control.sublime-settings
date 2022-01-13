@@ -51,6 +51,7 @@
 		"LSP",
 		"LSP-json",
 		"LSP-pylsp",
+		"LSP-pyright",
 		"MarkdownEditing",
 		"MarkdownLivePreview",
 		"MarkdownPreview",
