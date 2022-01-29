@@ -1,0 +1,1 @@
+{"description": "Automatically reload submodules while developing a Sublime Text package.", "url": "https://github.com/randy3k/AutomaticPackageReloader", "sublime_text": ">=3189", "dependencies": [], "platforms": ["*"], "version": "1.4.5"}
