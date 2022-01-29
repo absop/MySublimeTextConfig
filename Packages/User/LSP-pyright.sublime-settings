@@ -1,0 +1,30 @@
+// Settings in here override those in "LSP-pyright/LSP-pyright.sublime-settings"
+{
+    "settings": {
+        "pyright.dev_environment": "sublime_text_38",
+        "pyright.disableLanguageServices": false,
+        "pyright.disableOrganizeImports": false,
+        "python.analysis.autoImportCompletions": true,
+        "python.analysis.autoSearchPaths": true,
+        "python.analysis.diagnosticMode": "openFilesOnly",
+        "python.analysis.diagnosticSeverityOverrides": {
+            "reportDuplicateImport ": "warning",
+            "reportImplicitStringConcatenation": "warning",
+            "reportMissingParameterType": "none",
+            "reportUnboundVariable": "warning",
+            "reportUninitializedInstanceVariable": "none",
+            "reportUnusedClass": "information",
+            "reportUnusedFunction": "information",
+            "reportUnusedImport": "information",
+            "reportUnusedVariable": "information"
+        },
+        "python.analysis.extraPaths": [],
+        "python.analysis.logLevel": "information",
+        "python.analysis.stubPath": "./typings",
+        "python.analysis.typeCheckingMode": "basic",
+        "python.analysis.typeshedPaths": [],
+        "python.analysis.useLibraryCodeForTypes": true,
+        "python.pythonPath": "python",
+        "python.venvPath": ""
+    }
+}
