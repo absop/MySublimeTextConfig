@@ -1,11 +1,24 @@
 // Settings in here override those in "LSP/LSP.sublime-settings"
 {
-    "clients": {
-      "haskell-language-server": {
-        "command": ["haskell-language-server-wrapper", "--lsp"],
-        "scopes": ["source.haskell"],
-        "syntaxes": ["Packages/Haskell/Haskell.sublime-syntax"],
-        "languageId": "haskell"
-      }
-    }
+	"clients": {
+		"clangd": {
+			"enabled": true,
+			"command": [
+				"clangd",
+				"-function-arg-placeholders=0",
+				"-header-insertion-decorators=1",
+				"-index",
+				"--suggest-missing-includes",
+			],
+		},
+		"haskell-language-server": {
+			"command": ["haskell-language-server-wrapper", "--lsp"],
+			"selector": "source.haskell"
+		}
+	},
+	"semantic_highlighting": true,
+	"log_server":
+	[
+		"panel"
+	],
 }
