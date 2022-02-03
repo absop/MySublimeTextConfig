@@ -1,3 +1,0 @@
-ClangAutoComplete version 2.2.1
-
-Added an option to avoid including system header files automatically. (from Anton Salnikov)

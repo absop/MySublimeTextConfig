@@ -1,3 +1,0 @@
-ClangAutoComplete version 2.3.1
- 
-Resolved dependency issues when discovering C++ <cstdlib> after C <stdlib.h> standard headers.

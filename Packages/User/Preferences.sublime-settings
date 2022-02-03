@@ -45,7 +45,7 @@
 
 	"overlay_scroll_bars": "enabled",
 	"enable_tab_scrolling": false,
-	"sublime_merge_path": null,
+	"sublime_merge_path": "D:/Programs/SublimeMerge/sublime_merge.exe",
 	"update_check": true,
 
 	"added_words": [
@@ -84,7 +84,6 @@
 		"BetterFindNext",
 		"BracketHighlighter",
 		"C#",
-		"ClangAutoComplete",
 		"Clojure",
 		"Color Convert",
 		"Color Scheme - Legacy",
@@ -111,7 +110,6 @@
 		"PlainTasks",
 		"ProjectManager",
 		"Rails",
-		"Rust",
 		"Scala",
 		"SCSS Compiler",
 		"SCSS Snippets Complete",
