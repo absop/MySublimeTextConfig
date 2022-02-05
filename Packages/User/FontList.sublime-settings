@@ -7,6 +7,9 @@
 			"line_padding_top": 1,
 		},
 		{
+			"font_face": "Monolisa",
+		},
+		{
 			"font_face": "Lucida Console",
 			"line_padding_bottom": 1,
 			"line_padding_top": 1,
@@ -26,5 +29,5 @@
 			"line_padding_bottom": 1,
 			"line_padding_top": 1,
 		},
-	],
+	]
 }
