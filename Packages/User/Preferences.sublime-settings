@@ -2,7 +2,7 @@
 	"auto_complete": true,
 
 	"bold_folder_labels": false,
-	"color_scheme": "One Light.sublime-color-scheme",
+	"color_scheme": "GitHub Light Legacy.sublime-color-scheme",
 	"dark_theme": "GitHub Dimmed.sublime-theme",
 	"light_theme": "GitHub Light.sublime-theme",
 	"theme": "GitHub Light.sublime-theme",
@@ -10,7 +10,11 @@
 	"caret_style": "smooth",
 	"font_face": "Fira Code",
 	"font_size": 11,
-	"font_options": ["no_italic"],
+	"font_options": [
+		"no_italic",
+		"ss06",
+		"dlig"
+	],
 	"line_padding_top": 1,
 	"line_padding_bottom": 1,
 
@@ -82,11 +86,11 @@
 		"ASP",
 		"BetterFindBuffer",
 		"BetterFindNext",
-		"BracketHighlighter",
 		"C#",
 		"Clojure",
 		"Color Convert",
 		"Color Scheme - Legacy",
+		"ColorPainter",
 		"D",
 		"FileBrowser",
 		"Git",
@@ -125,8 +129,8 @@
 	],
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"preview_on_click": true,
-	"mdpopups.default_formatting": false,
 	"mde.auto_fold_link.enabled": false,
+	"mdpopups.default_style": false,
 	"auto_complete_use_history": true,
 	"index_files": true,
 }
