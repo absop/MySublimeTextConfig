@@ -17,9 +17,6 @@
 		"c",
 		"h"
 	],
-	"font_face": "Lucida Console",
-	"line_padding_bottom": 1,
-	"line_padding_top": 1,
 	"tab_size": 4,
 	"word_wrap": true
 }
