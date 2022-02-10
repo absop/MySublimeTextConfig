@@ -1,0 +1,5 @@
+{
+    "match_selection": true,
+    "auto_match_enabled": true,
+    "syntax": "Packages/Python/Python.sublime-syntax",
+}
