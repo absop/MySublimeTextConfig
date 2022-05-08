@@ -5,7 +5,7 @@ import sys
 import shutil
 from threading import Thread, Lock
 
-from .reloader import reload_package, load_dummy
+from .reloader import reload_package
 from .utils import ProgressBar, read_config, has_package, package_of, package_python_version
 
 
@@ -93,8 +93,7 @@ class PackageReloaderReloadCommand(sublime_plugin.WindowCommand):
         ).start()
 
     def run_async(self, package, extra_pkgs=[], verbose=None):
-        lock = reload_lock  # In case we're reloading AutoPackageReloader
-        if not lock.acquire(blocking=False):
+        if not reload_lock.acquire(blocking=False):
             print("Reloader is running.")
             return
 
@@ -110,10 +109,12 @@ class PackageReloaderReloadCommand(sublime_plugin.WindowCommand):
         if not console_opened and open_console:
             self.window.run_command("show_panel", {"panel": "console"})
         dependencies = read_config(package, "dependencies", [])
+        extra_modules = read_config(package, "extra_modules", [])
         if verbose is None:
             verbose = pr_settings.get('verbose')
         try:
-            reload_package(package, dependencies=dependencies, verbose=verbose)
+            reload_package(
+                package, dependencies=dependencies, extra_modules=extra_modules, verbose=verbose)
             if close_console_on_success:
                 self.window.run_command("hide_panel", {"panel": "console"})
 
@@ -125,7 +126,7 @@ class PackageReloaderReloadCommand(sublime_plugin.WindowCommand):
             raise
         finally:
             progress_bar.stop()
-            lock.release()
+            reload_lock.release()
 
         extra_pkgs = read_config(package, "siblings", []) + extra_pkgs
         if extra_pkgs:
